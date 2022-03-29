@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>PCNL WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header2">
+        <nav>
+            <a href="index.html"><img src="../WEBSITE/images/logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT PCNL</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="admission.html">ADMISSION</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="admission-page">
+            <h1>Philippine College of Northwestern Luzon</h1>
+            <p>"Invest right to make your future bright"</p>
+        </div>
+
+    </section>
+
+
+<!----Admission---->
+<section class="admission">
+    <h1>ADMISSION REQUIREMENTS</h1>
+
+    <div class="row">
+        <div class="admission-col">
+            <h3>FOR FRESHMEN</h3>
+            <p>Form 138 (High School Rating Card) <br> Alternative Learning Center (ALS) Rating  for ALS Graduate. <br> Certificate of Good Moral Character (from the Guidance Counselor of the school last attended). <br> Copy of Birth Certificate from National Statistics Office (NSO). <br> Three (3) copies 2" x 2" and 1 copy 1" x 1" colored pictures with white background. </p>
+        </div>
+    </div>
+
+        <div class="admission-col">
+         <h3>FOR TRANSFEREES</h3>
+         <p>Certified True Copy of Grades (from the institution last attended). <br> Certificate of Honorable Dismissal. <br> Certificate of Good Moral Character (from the Guidance Counselor of the school last attended). </p>
+         </div>
+
+         <div class="admission-col">
+            <h3>FOREIGN STUDENTS</h3>
+            <p>Certificate of Completion of a Secondary Curriculum. <br> Original Transcript of Records. <br> Personal Data <br> Affidavit of Support <br> Alien Certificate of Registration (ACR) <br> Result of TOEFL/IELTS (for non-native speakers of English) <br> Student Visa <br> Security clearance <br> Resident Guarantor <br> CHED Permit <br> Alien Fee </p>
+        </div>
+
+</section>
+
+<footer>
+    <p>©Copyright-2021 | Philippine College of Northwestern Luzon | Made by Fai & Jona</p>
+</footer>
+
+<!------ JavaScript for Toggle Menu ------>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

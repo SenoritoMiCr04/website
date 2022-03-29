@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>PCNL WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header3">
+        <nav>
+            <a href="index.html"><img src="../WEBSITE/images/logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT PCNL</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="admission.html">ADMISSION</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="contact-page">
+        <h1>Philippine College of Northwestern Luzon</h1>
+        <p>"Invest right to make your future bright"</p>
+    </div>
+
+    </section>
+
+
+<!------Contact------>
+    <section class="contact">
+        <h1>CONTACT US</h1>
+
+        <div class="row">
+            <div class="contact-col">
+                <h3>ADDRESS:</h3>
+                <p>San Antonio, Agoo, La Union, Philippines</p>
+            </div>
+        </div>
+
+            <div class="contact-col">
+                <h3>TELEPHONE NO:</h3>
+                <p>(072) 607 0406</p>
+            </div>
+
+            <div class="contact-col">
+                <h3>EMAIL:</h3>
+                <p>pcnl0406@gmail.com</p>
+            </div>
+
+            <div class="contact-col">
+                <h3>VISIT US:</h3>
+                <p>https://www.facebook.com/PCNLOFFICIAL/?ref=page_internal</p>
+            </div>
+
+            <div class="user-box">
+                <a href="https://www.facebook.com/SenoritoMiCr04" class="fai-btn">FAI</a>
+                <a href="https://www.facebook.com/jona.santos.9212" class="fai-btn">JONA</a>
+            </div>
+
+    </section>
+
+    <footer>
+        <p>©Copyright-2021 | Philippine College of Northwestern Luzon | Made by Fai & Jona</p>
+    </footer>
+
+
+<!------ JavaScript for Toggle Menu ------>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

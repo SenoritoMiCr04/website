@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>PCNL WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header1">
+        <nav>
+            <a href="index.html"><img src="../WEBSITE/images/logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT PCNL</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="admission.html">ADMISSION</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="course-page">
+            <h1>Philippine College of Northwestern Luzon</h1>
+            <p>"Invest right to make your future bright"</p>
+        </div>
+
+
+    </section>
+
+<!------ Course ------>
+<section class="course">
+    <h1>COURSES WE OFFER</h1>
+
+    <div class="row">
+        
+        <div class="course-col">
+            <h3>Bachelor of Science in Accountancy</h3>
+            <p>Organization Name:  Junior Philippine Institute of Accountants</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Bachelor of Science in Business Administration</h3>
+            <p>Majors: <br> Financial Management <br> Human Resources Development and Management</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Bachelor of Science in Criminology</h3>
+            <p> </p>
+        </div>
+
+        <div class="course-col">
+            <h3>Bachelor in Elementary Education/ <br> Bachelor in Secondary Education</h3>
+            <p>Majors: <br> Filipino <br> English</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Bachelor of Science in Information Technology</h3>
+            <p>Organization Name: Junior Information Technology Students</p>
+        </div>
+    </div>
+
+    <div class="course-logo">
+        <img src="../WEBSITE/images/JPIA.jpg">
+        </div>
+    </div>
+
+    <div class="course-logo1">
+        <img src="../WEBSITE/images/BSBA.gif">
+        </div>
+    </div>
+
+    <div class="course-logo2">
+        <img src="../WEBSITE/images/crim.jpg">
+        </div>
+    </div>
+
+    <div class="course-logo3">
+        <img src="../WEBSITE/images/educ.gif">
+        </div>
+    </div>
+
+    <div class="course-logo4">
+        <img src="../WEBSITE/images/JITS.png">
+        </div>
+    </div>
+
+    <div class="footer1">
+        <p>©Copyright-2021 | Philippine College of Northwestern Luzon | Made by Fai & Jona</p>
+    </div>
+
+
+</section>
+
+
+<!------ JavaScript for Toggle Menu ------>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
